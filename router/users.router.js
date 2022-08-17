@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-//Users//
+//Users Next router to work on//
 
 router.get ('/', (req, res) => {
   const { limit, offset} = req.query
